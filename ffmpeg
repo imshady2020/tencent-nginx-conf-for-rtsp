@@ -1,0 +1,1 @@
+ffmpeg -i rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov -vcodec copy -acodec aac -ar 44100 -strict -2 -ac 1 -f flv -s 1280x720 -q 10 -f flv rtmp://149.28.56.171:1935/hls/test
